@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/places
+###
+GET http://localhost:3001/api/places/79
+###
+POST http://localhost:3001/api/places
+content-type:application/json
+
+{
+    "name":"place 79",
+    "userId":1,
+    "lat":10.1234,
+    "lon":20.2345
+}
